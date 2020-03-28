@@ -7,10 +7,12 @@
 链接：https://pan.baidu.com/s/1w8dOvQxs_e8EfCgdGnDzXw   
 提取码：v7v7   
 (b) 文件说明：  
-logs文件夹为存放训练后的模型，model_data文件夹存放voc_classes文件，及anchors文件及预训练文件，VOCdevkit文件夹下的VOC2007存放Annotation文件夹对应图片的xml文件，  ImageSets对应Main文件夹存放数据集的信息，JPEGImages存放图像文件。  
+logs文件夹为存放训练后的模型，model_data文件夹存放voc_classes.txt，及anchors.txt及预训练权值文件，VOCdevkit文件夹下的VOC2007存放Annotation文件夹对应图片的xml文件，  ImageSets对应Main文件夹存放数据集的信息，JPEGImages存放图像文件。  
 (c) 使用步骤：  
 voc2yolo3文件在VOC2007目录下，作用是将数据集转为yolo格式，在ImageSets下的Main文件夹中生成；  
 voc_annotations文件用来转换yolo需要的格式；  
-用jupyter 打开train文件，进行训练；  
-打开predict文件，进行预测。  
-具体的实现细节可以参考。
+用jupyter 打开train.ipynb，进行训练；  
+打开predict.ipynb，进行预测。  
+## 2、具体的实现细节可以参考  
+https://blog.csdn.net/weixin_44753371/article/details/105158272
+
